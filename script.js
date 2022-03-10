@@ -21,6 +21,7 @@ window.onload = () =>{
                     songUrl :'all/kejar-mimpi.mp3',
                     duration :'04 : 11' 
                 },
+                /***********----Rekomendasi----************
                 {
                     name : 'Menepi',
                     artist : 'Woro Widowati',
@@ -64,7 +65,7 @@ window.onload = () =>{
                     duration :'09 : 23' 
                 },
 
-                /***********----Top Tracks 5 Song----************/
+                /***********----Top Tracks 5 Song----************
                 {
                     name : 'Lily',
                     artist : 'Alan Walkerr, K-391',
@@ -123,7 +124,7 @@ window.onload = () =>{
                 },
 
 
-                /***********----Pop----************/
+                /***********----Pop----************
                 {
                     name : 'Takut',
                     artist : 'Idgitaf',
@@ -139,7 +140,7 @@ window.onload = () =>{
                     duration :'04 : 26' 
                 },
 
-                /***********----Mood----************/
+                /***********----Mood----************
                 {
                     name : 'My Universe',
                     artist : 'Coldplay X BTS',
@@ -148,7 +149,7 @@ window.onload = () =>{
                     duration :'03 : 48' 
                 },
 
-                /***********----Segera Hadir----************/
+                /***********----Segera Hadir----************
                 {
                     name : 'Segera Hadir',
                     artist : 'Segera Hadir',
@@ -158,7 +159,7 @@ window.onload = () =>{
                 },
 
 
-
+                /***********----Close----************/
             ]
 
             const randomSong = [
@@ -408,10 +409,12 @@ window.onload = () =>{
 
                 DOM.audioListParent[listChange].insertAdjacentHTML('beforeend',content); 
             }
-            // Yang Direkomendasikan 
-                for(let i = 0 ; i < 8 ; i++ ){
+            // Yang Direkomendasikan 0<8
+                for(let i = 0 ; i < 2 ; i++ ){
                         addListUI(0 , i);
                 }
+
+            /***********----Rekomendasi----************
             // Tok Tracks
                 for(let i = 8 ; i < 16 ; i++ ){
                     addListUI(1 , i);
@@ -434,7 +437,7 @@ window.onload = () =>{
                 }
 
     
-            
+            /***********----Rekomendasi----************/
             // List UI Added
 
             for(let i in getSongs.animeSong){

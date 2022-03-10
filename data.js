@@ -1,3 +1,4 @@
+/***********----Rekomendasi----************
 var myDate = new Date();
             var hrs = myDate.getHours();
         
@@ -16,7 +17,7 @@ var myDate = new Date();
         
             document.getElementById('welcome').innerHTML =
                 '<b>' + greet + '</b> ';
-
+/***********----Rekomendasi----************/
                 // Your web app's Firebase configuration
       var firebaseConfig = {
         apiKey: "AIzaSyCG_92OLetfydA6KDg2kwweJF4bf4hG7Jw",
