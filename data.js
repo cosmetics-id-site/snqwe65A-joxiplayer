@@ -46,7 +46,7 @@ var myDate = new Date();
             link.href = link.textContent ;
 
         }   else {
-          window.location = "../index.html";
+          window.location = "login/index.html";
         }
       });
 

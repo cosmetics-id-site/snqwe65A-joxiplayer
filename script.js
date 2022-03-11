@@ -19,9 +19,8 @@ window.onload = () =>{
                     artist : 'Maudy Ayunda',
                     image :'populer/Kejar-Mimpi.png',
                     songUrl :'all/kejar-mimpi.mp3',
-                    duration :'04 : 11' 
+                    duration :'zzzz04 : 11' 
                 },
-                /***********----Rekomendasi----************
                 {
                     name : 'Menepi',
                     artist : 'Woro Widowati',
@@ -29,6 +28,7 @@ window.onload = () =>{
                     songUrl :'populer/menepi.mp3',
                     duration :'04 : 49' 
                 },
+                /***********----Rekomendasi----************
                 {
                     name : 'Cinta Luar Biasa',
                     artist : 'Andmesh Kamaleng',
@@ -410,7 +410,7 @@ window.onload = () =>{
                 DOM.audioListParent[listChange].insertAdjacentHTML('beforeend',content); 
             }
             // Yang Direkomendasikan 0<8
-                for(let i = 0 ; i < 2 ; i++ ){
+                for(let i = 0 ; i < 3 ; i++ ){
                         addListUI(0 , i);
                 }
 
